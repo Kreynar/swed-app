@@ -2,7 +2,7 @@
   <!--<div id="app">-->
   <v-app id="inspire">
 
-    <v-toolbar color="orange" app absolute clipped-left>
+    <v-toolbar color="orange" app fixed clipped-left>
       <v-toolbar-side-icon @click.native="drawer = !drawer"></v-toolbar-side-icon>
       <router-link to="/">
         <span class="title ml-3 mr-5">Swedbank</span>
